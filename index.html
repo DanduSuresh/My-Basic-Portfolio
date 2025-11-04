@@ -8,62 +8,80 @@
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/128/15735/15735364.png"
     />
-    <style>
-      html{
-        scroll-behavior: smooth;
-      }
-    </style>
+    <link rel="stylesheet" href="/style.css">
   </head>
-
   <body>
-    <h1 id="Title">Suresh - Full Stack Developer</h1>
-    <h4>Welcome to my portfolio website! Use the navigation below to explore</h4>
-    <ul>
-      <li><a href="#aboutme">About Me</a></li>
-      <li><a href="#project">Projects</a></li>
-      <li><a href="#skills">Technical Skills</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-      <li><a href="/Resume (4).pdf" download="">Download Resume</a></li>
+   <header>
+    <video id="video" class="bgvideo" autoplay loop muted src="/SureshBgVideo.mp4" height="90px"></video>
+     <nav>
+      <ul class="navlist">
+      <li class="ulist"><a class="listitem" href="#aboutme">About Me</a></li>
+      <li class="ulist"><a class="listitem" href="#project">Projects</a></li>
+      <li class="ulist"><a class="listitem" href="#skills">Technical Skills</a></li>
+      <li class="ulist"><a class="listitem" href="#contact">Contact Me</a></li>
+      <li class="ulist"><a class="listitem" href="/Resume (4).pdf" download="">Download Resume</a></li>
     </ul>
-    <h2 id="aboutme">About Me</h2>
+    </nav>
+     <h1 id="Title" class="title">Suresh - Full Stack Developer</h1>
+    <h5 class="intropara">Welcome to my portfolio website! Use the navigation below to explore</h5>
+   
+   </header>
+<main>
+     <section>
+       <h2 id="aboutme" class="section-title">About Me</h2>
     <p>
      I'm a BCA graduate from SV University Tirupati with a strong foundation in programming and database management. My journey in technology has been driven by curiosity and a passion for problem-solving.
 
 Through academic projects and self-learning, I've developed expertise in Java, Python, and web technologies. I enjoy taking on programming challenges and continuously expanding my skill set to stay current with industry trends.
     </p>
-    <h2>Education</h2>
+     <h4>
+      <button class="button">
+        <a class="anchor" href="https://github.com/DanduSuresh?tab=repositories" target="_blank"
+        >View My Github</a>
+      </button>
+    </h4>
+     </section>
+
+     <section>
+       <h2 class="section-title">Education</h2>
     <dl>
      <dt></dt>
-      <dd><strong>BCA Computer Applications</strong></dt>
+      <dd><strong class="degree">BCA Computer Applications</strong></dt>
       <dd><abbr title="Sri Venkateswara">SV</abbr> University Tirupati</dt>
       <dd>Sep 2022 - Apr 2025 | CGPA: 7.50</dt>
     </dl>
 
     <dl>
      <dt></dt>
-      <dd><strong>Intermediate</strong></dt>
+      <dd><strong class="degree">Intermediate</strong></dt>
       <dd>Apswrs Jr College Pulivendula</dt>
       <dd>June 2019 - Mar 2021 | 6.78</dt>
     </dl>
-    <h4>
-      <a href="https://github.com/DanduSuresh?tab=repositories" target="_blank"
-        >View My Github</a
-      >
-    </h4>
+     </section>
+   
+   
 
-    <h2>Hobbies & Interests</h2>
+   <section>
+     <h2 class="section-title">Hobbies & Interests</h2>
     <ul type="square">
       <li>Programming Challenges</li>
       <li>Photography</li>
       <li>Traveling</li>
     </ul>
-    <h2 id="project">Projects</h2>
+   </section>
+
+
+   <section>
+     <h2  class="section-title" id="project">Projects</h2>
+    <p>Here are some of the projects I have worked on</p>
     <ul>
       <li>Student Management System</li>
       <li>Online Quiz Application</li>
       <li>Portfolio Website</li>
     </ul>
-    <h2 id="skills">Technical Skills</h2>
+   </section>
+    <section>
+      <h2 class="section-title" id="skills">Technical Skills</h2>
     <ul type="square">
       <li>Java</li>
       <li>OOPs</li>
@@ -72,44 +90,54 @@ Through academic projects and self-learning, I've developed expertise in Java, P
       <li>JavaScript</li>
       <li>MySQL</li>
     </ul>
-<h2>Tools & Technologies</h2>
+    </section>
+<section>
+  <h2 class="section-title">Tools & Technologies</h2>
+<p>Technologies I work with and tools I use</p>
     <ul>
       <li>Github</li>
       <li>Eclipse</li>
       <li>Adobe Photoshop</li>
     </ul>
-    <h2 id="contact">
+</section>
+</main>
+   <footer>
+     <h2 id="contact" class="section-title">
       Contact Me
-      <a
+        <a
         href="https://www.linkedin.com/in/dandu-suresh-6244msauhri/"
         target="_blank"
       >
-        <img
+        <img class="img"
           src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
           alt="Logo Not Found"
           height="30px"
           width="30px"
       /></a>
-      <a href="https://github.com/DanduSuresh?tab=repositories" target="_blank"
-        ><img
-          src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
+      <a class="anchor" href="https://github.com/DanduSuresh?tab=repositories" target="_blank"
+        ><img class="img"
+          src="https://cdn-icons-png.flaticon.com/128/733/733553.png"
           alt="Logo Not Found"
           height="30px"
           width="30px"
       /></a>
-      <a href="https://www.instagram.com/smart_suresh_124/" target="_blank">
-        <img
+      <a class="anchor" href="https://www.instagram.com/smart_suresh_124/" target="_blank">
+        <img class="img"
           src="https://cdn-icons-png.flaticon.com/128/174/174855.png"
           alt="Logo Not Found"
           height="30px"
           width="30px"
       /></a>
     </h2>
-    <p>
-      Email:
-      <a href="mailto:dandusuresh04@gmail.com"> dandusuresh04@gmail.com</a>
-    </p>
-    <p>Phone: <a href="tel:"+918328075522"> +918328075522</a></p>
-    <p><a href="#Title">Back To Top</a></p>
+    <img class="img" src="https://cdn-icons-png.flaticon.com/128/9068/9068642.png" height="50px" width="50px" alt="">
+    <button class="button""><p class="footer">
+      <a class="anchor" href="mailto:dandusuresh04@gmail.com"> dandusuresh04@gmail.com</a>
+    </p></button>
+    <br>
+    <img class="img" src="https://cdn-icons-png.flaticon.com/128/724/724664.png" height="50px" width="50px" alt="">
+   <button class="button"> <p class="footer"><a class="anchor" href="tel:"+918328075522"> +918328075522</a></p></button>
+<button class="button">    <p class="footer" ><a class="anchor" href="#video">Back To Top</a> <img class="img" src="https://cdn-icons-png.flaticon.com/128/5184/5184141.png"  height="20px" width="20px"></p> </button>
+    
+   </footer>
   </body>
 </html>

@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+/* ---------- Title Section ---------- */
+.title {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 170, 0, 1) 1%,
+    rgb(191, 255, 15) 22%,
+    rgb(247, 11, 141) 75%,
+    rgb(186, 19, 153) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 30px auto;
+  letter-spacing: 1px;
+}
+
+/* ---------- Intro Paragraph ---------- */
+.intropara {
+  text-align: center;
+  font-size: 14px;
+  color: darkgray;
+  margin-bottom: 10px;
+}
+
+/* ---------- Navigation Bar ---------- */
+nav {
+  background-color: aqua;
+  margin-top: 10px;
+  width: 700px;
+  padding: 10px 0;
+  margin: 15px auto;
+  border-radius: 25px;
+  font-weight: 550;
+  border: 2px ridge navy;
+  transition: all 0.4s ease;
+}
+
+.navlist {
+  list-style: none;
+  text-align: center;
+}
+
+.ulist {
+  display: inline;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.listitem {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 16px;
+  transition: all 0.3s ease;
+}
+
+.listitem:hover {
+  color: navy;
+  text-shadow: 0 0 10px #00adb5;
+}
+
+/* ---------- Background Video ---------- */
+.bgvideo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* ---------- Section & Footer Boxes ---------- */
+section,
+footer {
+  background-color: #060117; /* Deep purple-blue tone */
+  border: 2px solid rgb(99, 227, 227);
+  width: 95%;
+  margin: 40px auto;
+  border-radius: 25px;
+  padding: 25px 40px;
+  box-shadow: 2px 3px 10px aqua;
+  transition: all 0.3s ease-in-out;
+}
+
+section:hover,
+footer:hover {
+  transform: translateY(-3px);
+  box-shadow: 2px 3px 10px rgba(0, 255, 255, 0.8);
+}
+
+/* ---------- Section Titles ---------- */
+.section-title {
+  background: #833ab4;
+  background: linear-gradient(
+    90deg,
+    rgb(210, 143, 255) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgb(92, 54, 2) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* ---------- Text ---------- */
+p,
+li,
+dd {
+  color: #b3b3b3;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+/* ---------- Button ---------- */
+button {
+  background-color: aliceblue;
+  color: #00adb5;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(252, 0, 255, 0.3);
+  display: inline-block;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #01757b;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(0, 173, 181, 0.6);
+}
+
+.anchor {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  font-size: 18px;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  display: inline;
+  color: #00adb5;
+}
+
+footer a {
+  color: aqua;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.degree {
+  color: #833ab4;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  nav {
+    width: 90%;
+  }
+  .navlist {
+    display: flex;
+    flex-direction: column;
+  }
+  section,
+  footer {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+img {
+  margin-left: 20px;
+  padding: 5;
+}
